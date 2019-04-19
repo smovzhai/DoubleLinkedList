@@ -51,8 +51,7 @@ namespace DoubleLinkedList
                         var countItems = InputIntValue();
                         if (countItems.HasValue)
                         {
-                            _doubleLinkedListInstance = new DoubleLinkedList();
-                            _doubleLinkedListInstance = new DoubleLinkedList();
+                            _doubleLinkedListInstance = new DoubleLinkedList();                          
                             for (var i = 0; i < countItems.Value; i++)
                             {
                                 _doubleLinkedListInstance.AddToEnd(RANDOM.Next(MAX_ITEM_VALUE));
